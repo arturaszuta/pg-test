@@ -14,4 +14,4 @@ app.use(
     )
   );
 
-  app.linsten(process.env.port);
+  app.listen(process.env.PORT);
