@@ -14,4 +14,8 @@ app.use(
     )
   );
 
+  app.get('/', function(req, res) {
+    res.send('Live bby!')
+  });
+
   app.listen(process.env.PORT);
